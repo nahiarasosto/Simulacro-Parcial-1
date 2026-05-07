@@ -1,4 +1,3 @@
-/*Font para los titulos: https://fonts.google.com/specimen/Lato*/
 @import url(https://fonts.google.com/specimen/Lato);
 body {
     /*Fondo*/
@@ -9,7 +8,9 @@ background-position: center, center;
 /*Texto;*/
 color: aliceblue;
 text-align: center;
-
 font-family: 'lato', 'Times New Roman', Times, serif;
-.titulo {font-size: 200%} ;
+.titulo {font-size: 200%};
+.navegador {display: inline};
+.link {color: rgb(60, 60, 238)};
+.link:hover {color: };
 }
