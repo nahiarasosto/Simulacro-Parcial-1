@@ -1,1 +1,15 @@
 /*Font para los titulos: https://fonts.google.com/specimen/Lato*/
+@import url(https://fonts.google.com/specimen/Lato);
+body {
+    /*Fondo*/
+background-image: linear-gradient(rgb(8, 8, 24) , rgb(8, 8, 24)), url(../img/fondo.png);
+background-repeat: no-repeat, repeat;
+background-size: 95% 100%, auto;
+background-position: center, center;
+/*Texto;*/
+color: aliceblue;
+text-align: center;
+
+font-family: 'lato', 'Times New Roman', Times, serif;
+.titulo {font-size: 200%} ;
+}
