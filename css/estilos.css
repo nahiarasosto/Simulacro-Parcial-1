@@ -6,7 +6,7 @@
 
 /*Base*/
 body {
-    background-image: linear-gradient(rgb(8, 8, 24), rgb(8, 8, 24)), url(../img/fondo.png);
+    background-image: linear-gradient(rgb(8, 8, 24), rgb(8, 8, 24)),url(../img/fondo.png);
     background-repeat: no-repeat, repeat;
     background-size: 95% 100%, auto;
     background-position: center, center;
