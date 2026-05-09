@@ -66,3 +66,83 @@ Para contactarse escribir a refik@artedigital.com
 ---
 
 Nota: Los textos fueron generados por ChatGPT y adaptados a la consigna. Pueden contener errores. Las imágenes fueron recopiladas de Internet únicamente para su uso en este parcial. 
+
+
+
+
+
+
+
+@import url(https://fonts.google.com/specimen/Lato);
+/** {box-sizing: border-box;};*/
+body {
+    /*Fondo*/
+background-image: linear-gradient(rgb(8, 8, 24) , rgb(8, 8, 24)), url(../img/fondo.png);
+background-repeat: no-repeat, repeat;
+background-size: 95% 100%, auto;
+background-position: center, center;
+
+/*Imagen*/
+#img {
+    margin-top: 5%;
+}
+/*Epígrafe*/
+#epigrafe {
+    margin-top: 0%;
+}
+/*Texto;*/
+color: aliceblue;
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-size: 2rem; 
+    font-family: 'Lato';
+        margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(98, 150, 248, 0.93);
+}
+p , li {
+    font-size: 2rem;
+}
+div ,  {
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(91, 125, 236, 0.932);
+    color: rgb(8, 8, 24);
+}
+
+/*Lista*/
+#obras {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Navegador*/
+nav {
+    font-size: 2rem;
+    margin-left: 7%;
+}
+nav  li{
+    list-style: inside;
+    margin-right: 15%;
+    display: inline-block;
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+};
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+/*Footer*/
+footer {
+    margin-top: 5%;
+}
+}

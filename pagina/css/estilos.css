@@ -1,67 +1,170 @@
 @import url(https://fonts.google.com/specimen/Lato);
-body {
-    /*Fondo*/
-background-image: linear-gradient(rgb(8, 8, 24) , rgb(8, 8, 24)), url(../img/fondo.png);
-background-repeat: no-repeat, repeat;
-background-size: 95% 100%, auto;
-background-position: center, center;
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
 
-/*Imagen*/
-#img {
+/*Base*/
+body {
+    background-image: linear-gradient(rgb(8, 8, 24), rgb(8, 8, 24)), url(../img/fondo.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 95% 100%, auto;
+    background-position: center, center;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*Líneas*/
+hr {
+    width: 52%;
+    color: aliceblue;
     margin-top: 5%;
-};
-/*Epígrafe*/
-#epigrafe {
+}
+
+/*Títulos*/
+h1 { 
+    font-size: 2rem;   
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(98, 176, 248, 0.86);
+}
+
+h2 , h3 { 
+    font-size: 2rem;
+    margin-top: 10%;    
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(98, 176, 248, 0.86);
+}
+
+h4 , h5 {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(98, 176, 248, 0.86);
+}
+
+/*Imagen y Epígrafe*/
+figure { 
+    margin-top: 10%;
+}
+
+span {
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.epigrafe { 
     margin-top: 0%;
-};
-/*Texto;*/
-color: aliceblue;
-text-align: center;
-font-family:'Times New Roman', Times, serif;
-h1, h2, h3, h4, h5, h6 {
-    font-size: 200%; 
-    font-family: 'Lato';
-};
-p , li {
-    font-size: 120%;
-};
-div {
+}
+
+/*Extra*/
+p { 
+    font-size: 1rem;
+}
+
+ul , span {
+    font-size: 2rem;
+}
+
+div { 
     margin-left: 5%;
     width: 90%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(91, 125, 236, 0.932);
-    color: rgb(8, 8, 24);
-};
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(60, 80, 167);
+    color: rgb(1, 1, 17);
+}
 
-/*Lista*/
-#obras {
+#cita {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+}
+
+#obras { 
     margin: 0%;
     padding: 0%;
-};
+    margin-left: 5%;
+    width: 90%;
+    list-style: none;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(60, 103, 167, 0.71);
+    color: rgb(1, 1, 17);
+}
+
+#video {
+    margin-top: 10%;
+}
 
 /*Navegador*/
-nav {
-    font-size: 120%;
-    margin-left: 7%;
-};
-nav  li{
+nav { 
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 5%;
+}
+nav ul:first-child {
+    margin-right: 3%;
+}
+
+nav li { 
     list-style: inside;
-    margin-right: 15%;
+    margin-right: 10%;
     display: inline-block;
-    color: aliceblue;
-};
-a {
+    padding: 1%;
+    background-color: rgba(0, 14, 92, 0.9);
+}
+
+nav li a { 
+    color: rgb(21, 33, 139);
     text-decoration: none;
-};
-a:visited {
-    color: cornflowerblue;
-    text-decoration: none;
-};
+}
+
+nav li a:hover {
+    color: rgb(87, 127, 236);
+    text-decoration: underline;
+}
+
+nav li a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
 /*Footer*/
-footer {
+footer { 
     margin-top: 5%;
-};
-};
+    font-size: 1.5rem;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(98, 176, 248, 0.86);
+    color: rgb(1, 1, 17);
+}
+
+footer address a { 
+    color: rgb(204, 209, 255);
+    text-decoration: none;
+}
+
+footer address a:hover {
+    color: rgb(4, 19, 151);
+    text-decoration: underline;
+}
+
+footer address a:active {
+    color: blue;
+    text-decoration: underline;
+}
