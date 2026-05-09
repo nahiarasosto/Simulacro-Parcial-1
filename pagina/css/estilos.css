@@ -5,12 +5,63 @@ background-image: linear-gradient(rgb(8, 8, 24) , rgb(8, 8, 24)), url(../img/fon
 background-repeat: no-repeat, repeat;
 background-size: 95% 100%, auto;
 background-position: center, center;
+
+/*Imagen*/
+#img {
+    margin-top: 5%;
+};
+/*Epígrafe*/
+#epigrafe {
+    margin-top: 0%;
+};
 /*Texto;*/
 color: aliceblue;
 text-align: center;
-font-family: 'lato', 'Times New Roman', Times, serif;
-.titulo {font-size: 200%};
-.navegador {display: inline};
-.link {color: rgb(60, 60, 238)};
-.link:hover {color: };
-}
+font-family:'Times New Roman', Times, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-size: 200%; 
+    font-family: 'Lato';
+};
+p , li {
+    font-size: 120%;
+};
+div {
+    margin-left: 5%;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(91, 125, 236, 0.932);
+    color: rgb(8, 8, 24);
+};
+
+/*Lista*/
+#obras {
+    margin: 0%;
+    padding: 0%;
+};
+
+/*Navegador*/
+nav {
+    font-size: 120%;
+    margin-left: 7%;
+};
+nav  li{
+    list-style: inside;
+    margin-right: 15%;
+    display: inline-block;
+    color: aliceblue;
+};
+a {
+    text-decoration: none;
+};
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+};
+/*Footer*/
+footer {
+    margin-top: 5%;
+};
+};
